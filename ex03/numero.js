@@ -15,4 +15,7 @@ for (let i = 1; i <= 5; i++) {
     numeros.push(numero);
 
 }
-console.log(numeros);
+//Mostrando arry preenchido
+for (let i = 0; i < 5; i++) {
+    console.log(`O ${i+1} número é ${numeros[i]}`); 
+}
