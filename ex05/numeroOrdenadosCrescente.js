@@ -14,7 +14,7 @@ const numerosOrdenados = [...numeros];
 numerosOrdenados.sort();
 
 //orden decrescente
-//numerosOrdenados.sort((numero1, numero2) => numero1 + numero2)
+//numerosOrdenados.sort((numero1, numero2) => numero2 - numero1)
 
 
 console.log("A lista dos números ordenados é "+ numerosOrdenados);
