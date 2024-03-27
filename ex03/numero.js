@@ -11,8 +11,7 @@ for (let i = 0; i < numeros.length; i++) {
 let numeros = [];
 
 for (let i = 1; i <= 5; i++) {
-    let numero = prompt("Informe um número. ");
-    numeros.push(numero);
+    numeros.push(prompt("Informe um número. "));
 
 }
 //Mostrando arry preenchido
