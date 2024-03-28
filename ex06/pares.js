@@ -13,3 +13,11 @@ const soPares = numeros.filter(numeroAtual => {
 })
 
 console.log("Apenas números pares do array: " + soPares);
+
+const menorQueDez = numeros.filter(numeroMenorQueDez => {
+    if (numeroMenorQueDez < 10){
+        return true
+    }
+})
+
+console.log("Números menores que dez " + menorQueDez);
